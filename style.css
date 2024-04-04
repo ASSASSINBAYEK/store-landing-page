@@ -143,6 +143,55 @@ ul{
     font-weight: 800;
     align-self: flex-end;
 }
+.sign-up-section{
+    padding:150px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.sign-up-main-text{
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+}
+.sign-up-secondary-text{
+    color: white;
+    font-size:18px;
+}
+.sign-up-body{
+    background-color: #3882F6;
+    padding:40px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap:200px;
+    align-items: center;
+    border-radius: 10px;
+}
+.sign-up-button button{
+    outline: none;
+    border: 2px solid white;
+    border-radius:5px;
+    background-color: transparent;
+    padding: 16px 50px;
+    color: white;
+    font-size:24px;
+    font-weight: 400;
+}
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    color: white;
+    font-size:24px;
+    font-weight:500;
+}
 @media all and(max-width:768px){
     .header ul{
         display: none;
